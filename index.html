@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home page</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+<style>
+  * {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+      font-family: "Roboto", sans-serif;
+      box-sizing: border-box;
+  }
+  body {
+      background-image: url("home-bg.jpg");
+      background-size: cover;          /* εικόνα पुरा cover कर लेगी */
+      background-position: center;     /* center पर रखेगी */
+      background-repeat: no-repeat;  /* mobile/iOS के लिए safe (fixed पर iOS issue होता है) */
+      font-family: sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    a{
+      padding: 5px 10px;
+      color: black;
+      background: orchid;
+      border-radius: 10px;
+      font-size: 50px;
+    }
+    #btns{
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+      margin-bottom: 20%;
+    }
+    h1{
+      color: blue;
+      margin-top: 68%;
+      text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+      font-size: 250%;
+      align-self: center;
+    }
+</style>
+</head>
+<body>
+  <div id="btns">
+<a  class="start-btn" href="cl.html">Start</a>
+<a class="about-btn" href="about.html">About me</a>
+  </div>
+</body>
+</html>
